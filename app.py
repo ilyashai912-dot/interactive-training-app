@@ -7,9 +7,9 @@ st.set_page_config(page_title="منصة التدريب التفاعلية", layo
 
 # --- إدارة الحالة (State) لتخزين البيانات مؤقتاً ---
 if "current_question" not in st.session_state:
-    st.session_state.current_question = "ما هو رأيك في الوسائل الرقمية في التعليم؟"
+    st.session_state.current_question = "إذا طلب منك أن تصف النشاط المسرحي داخل مؤسستك بكلمة واحدة، فماذا ستختار؟"
 if "options" not in st.session_state:
-    st.session_state.options = ["ممتازة جداً", "مفيدة القيود", "تحتاج لتطوير", "غير عملية"]
+    st.session_state.options = ["غائب", "ضعيف" , "موسمي", "يحتاج لتطوير", "واعد"]
 if "answers" not in st.session_state:
     st.session_state.answers = []
 
