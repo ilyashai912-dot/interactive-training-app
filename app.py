@@ -36,7 +36,7 @@ if mode == "عرض النتائج والـ QR (المُكوِّن)":
         
         # توليد رابط ديناميكي (سيتم استبداله برابط الموقع الحقيقي بعد النشر)
         # لتجربته محلياً نستخدم الرابط الافتراضي لـ Streamlit
-        app_url = "https://share.streamlit.io/" # ضع رابط موقعك هنا لاحقاً
+        app_url = "https://interactive-training-app-uschcvn9ny2wmratjpujmr.streamlit.app/#amsh-alrmz-llajabt" # ضع رابط موقعك هنا لاحقاً
         
         # توليد الـ QR Code
         qr = qrcode.QRCode(version=1, box_size=10, border=4)
